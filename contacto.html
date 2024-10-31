@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Judith Ríos">
+    <meta name="keywords" content="Violencia de Género, machismo, manifestaciones, feminismo, igualdad de género">
+    <meta name="description" content="Spark es una plataforma que explora el feminismo y la opresión a la mujer en la sociedad contemporánea.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="media/img/spark-logo.png">
+    <script src="script/script.js" defer></script>
+    <title>Spark Agency</title>
+</head>
+
+<body>
+    <!-- Sección del Header -->
+    <header class="header">
+        <img src="media/img/logo-header-nav.png" alt="Logo Spark" class="logo">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__elementoLista"><a href="index.html" title="Inicio" class="header__link">Inicio</a></li>
+                <li class="header__elementoLista"><a href="proyectos.html" title="Proyectos" class="header__link">Proyectos</a></li>
+                <li class="header__elementoLista"><a href="sobreNosotros.html" title="Sobre Nosotros" class="header__link">Sobre Nosotros</a></li>
+                <li class="header__elementoLista"><a href="contacto.html" title="Contacto" class="header__link">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="buscador">
+            <input type="text" id="buscador" placeholder="Buscar..." class="buscador__input">
+            <button type="button" id="buscar__boton" class="buscador__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </header>
+
+    <!--Sección Contacto-->
+    <section class="contacto">
+        <div class="contacto__container">
+            <h2 class="contacto__titulo">Contáctanos</h2>
+            <p class="contacto__descripcion">¿Tienes alguna consulta o colaboración en mente? Envíanos un mensaje y te responderemos lo antes posible.</p>
+    
+            <form action="#" method="get" class="contacto__form">
+                <div class="form__grupo">
+                    <label for="nombre" class="form__label">Nombre</label>
+                    <input type="text" id="nombre" class="form__input" placeholder="Tu nombre">
+                </div>
+            
+                <div class="form__grupo">
+                    <label for="email" class="form__label">Email</label>
+                    <input type="email" id="email" class="form__input" placeholder="Tu correo electrónico">
+                </div>
+            
+                <div class="form__grupo">
+                    <label for="mensaje" class="form__label">Mensaje</label>
+                    <textarea id="mensaje" class="form__textarea" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
+                </div>
+            
+                <button type="submit" class="contacto__boton" title="enviar">Enviar</button>
+            </form>
+            
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Judith Ríos">
+    <meta name="keywords" content="Violencia de Género, machismo, manifestaciones, feminismo, igualdad de género" >
+    <meta name="description" content="Spark es una plataforma que explora el feminismo y la opresión a la mujer en la sociedad contemporánea.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="media/img/spark-logo.png">
+    <script src="script/script.js" defer></script>
+    <title>Spark Agency</title>
+</head>
+<body>
+
+    <!--Sección Header-->
+
+    <header class="header">
+        <img src="media/img/logo-header-nav.png" alt="Logo Spark" class="logo">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__elementoLista"><a href="index.html" title="Inicio" class="header__link">Inicio</a></li>
+                <li class="header__elementoLista"><a href="proyectos.html" title="Proyectos" class="header__link">Proyectos</a></li>
+                <li class="header__elementoLista"><a href="sobreNosotros.html" title="Sobre Nosotros" class="header__link">Sobre Nosotros</a></li>
+                <li class="header__elementoLista"><a href="contacto.html" title="Contacto" class="header__link">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="buscador">
+            <input type="text" id="buscador" placeholder="Buscar..." class="buscador__input">
+            <button type="button" id="buscar__boton" class="buscador__btn" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </header>
+
+    <!--Sección Hero-->
+
+    <div class="hero">
+        <div class="hero__image">
+            <img src="media/img/heroimage.png" alt="Hero Image Spark" class="heroImage">
+
+        </div>
+
+    </div>
+
+    <!--Sección Introducción-->
+
+    <section class="intro">
+
+        <div class="intro__texto">
+            <p> Queremos formar parte de tu evolución personal, de tu futuro.</p>
+
+        </div>
+
+        <div class="intro__parrafo">
+            
+            <p>Spark es una plataforma que explora el <span class="bold">feminismo y la opresión a la mujer </span>en la sociedad contemporánea.
+               Este es un ejercicio para abarcar todas las ramas de la desigualdad de género y abogar por la <span class="bold">igualdad de la mujer.</span> 
+            </p>
+
+        </div>
+
+        <div class="intro__logo">
+            <img src="./media/img/spark-logo.png" alt="Logo Spark" class="intro__logo">
+        </div>
+
+        <button type="button" class="subir" title="scrollTop" id="botonSubir"><i class="fa-solid fa-angle-up"></i></button>
+
+    </section>
+
+    <!--Sección Casos de Éxito-->
+
+    <section class="casos">
+        <h1 class="casos__titulo">CASOS DE ÉXITO</h1>
+        <div class="casos__texto">
+            <p>Nuestro objetivo es educar y actuar para un cambio sistémico persiguiendo una iniciativa global para promover la igualdad de derechos.</p>
+        </div>
+            
+    
+        <div class="cards__container">
+            <div class="card">
+                <div class="face front">
+                    <div>
+                        <img src="./media/img/card-primera.jpg" alt="Card Flip Madrid" loading="lazy">
+                        <h3>Madrid</h3>
+                    </div>
+                    
+                </div>
+                <div class="face back">
+                    <h3>Madrid</h3>
+                    <p>La marcha feminista de 2023 en Madrid reunió a más de 250,000 personas recorriendo 5 km desde Cibeles hasta Atocha. Se recaudaron 24,000 euros, consolidando el evento como un referente de solidaridad en la capital.</p>
+                </div>
+            </div>
+
+    
+            <div class="card">
+                <div class="face front">
+                    <div>
+                        <img src="./media/img/card-segunda.jpg" alt="Card Flip Barcelona" loading="lazy">
+                        <h3>Barcelona</h3>
+                    </div>
+                </div>
+                <div class="face back">
+                    <h3>Barcelona</h3>
+                    <p>En 2022, Barcelona fue testigo de una marcha que convocó a 180,000 asistentes, recorriendo 7 km desde Plaza Catalunya hasta el Arco del Triunfo. La recaudación de más de 35,000 euros fue destinada a iniciativas locales.</p>
+                </div>
+            </div>
+
+    
+            <div class="card">
+                <div class="face front">
+                    <div>
+                        <img src="./media/img/card-tercera.jpg" alt="Card Flip Valencia" loading="lazy">
+                        <h3>Valencia</h3>
+                    </div>
+                </div>
+                <div class="face back">
+                    <h3>Valencia</h3>
+                    <p>La marcha feminista de 2019 en Valencia congregó a 85,000 personas, quienes recorrieron 4 km desde el Parque del Turia hasta la Plaza del Ayuntamiento. El evento recaudó 60,000 euros para prevenir la violencia de género en jóvenes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección Vídeo-->
+
+    <section class="video__seccion">
+
+        <div class="video__contenido">
+
+            <div class="video__texto">
+                <h1>¿Listas para ser la chispa que inicie el cambio?  </h1> 
+                <button class="boton__contacto" title="contacta" id="botonContacto">CONTÁCTANOS</button>
+            </div>
+            
+
+        </div>
+
+        <div class="video">
+            <video muted loop autoplay class="video__container" poster="./media/img/loading.jpg">
+             <source src="./media/video/video__feminismo.mp4" type="video/mp4">
+             <source src="./media/video__feminismo__webm.webm" type="video/webm">
+             Tu navegador no soporta el elemento de video
+            </video>
+        </div>
+
+    </section>
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <div class="footer__linea">
+         <div class="footer__container">
+            <ul class="footer__lista">
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+            </ul>
+            <p>All rights reserved &copy; <span class="bold">Spark</span> </p>
+
+         </div>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
