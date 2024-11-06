@@ -17,9 +17,8 @@
 - **JS**: Para elementos interactivos
 - **Font Awesome**: Para iconos modernos y elegantes.
 
-📧 Contacto
+## 📧 Contacto
 Si tienes preguntas o comentarios, no dudes en contactarme:
 
-Email: tu-email@ejemplo.com
-GitHub: DidithJim
+Email: judithfullstack@gmail.com
 
